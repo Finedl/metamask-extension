@@ -752,7 +752,3 @@ export class PermissionsController {
     )
   }
 }
-
-export function addInternalMethodPrefix(method) {
-  return WALLET_PREFIX + method
-}
